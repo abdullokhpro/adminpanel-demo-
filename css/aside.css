@@ -1,0 +1,6 @@
+#aside {
+    position: fixed;
+    width: var(--aside-width);
+    height: 100vh;
+    background-color: #363740;
+}

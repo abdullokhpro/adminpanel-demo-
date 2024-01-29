@@ -1,0 +1,122 @@
+#main {
+    position: fixed;
+    left: var(--aside-width);
+    top: var(--header-height);
+    width: calc(100vw - var(--aside-width));
+    height: calc(100vh - var(--header-height));
+}
+
+.main__top {
+    margin-bottom: 64px;
+}
+
+.main__top__title {
+    font-family: 'Lato', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    color: #000;
+}
+
+.main__buttons {
+    gap: 32px;
+}
+
+.more__btn {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+.add__btn {
+    padding-top: 8px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    background-color: #10CD45;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding-bottom: 180px;
+}
+
+table,
+th,
+td {
+    text-align: center;
+}
+
+thead {
+    padding-bottom: 20px;
+}
+
+th {
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #878787;
+}
+
+td {
+    padding: 15px 17px;
+    /* height: 66px; */
+    /* vertical-align: top; */
+    vertical-align: middle;
+    /* vertical-align: bottom; */
+}
+
+td {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+tr {
+    padding: 15px 0;
+}
+
+.table__row__main {
+    padding: 15px 0;
+    background-color: #EEF2F5;
+}
+
+
+.table__owner {
+    text-align: left;
+    padding-left: 47px;
+}
+
+.table__name {
+    display: flex;
+    align-items: center;
+    color: #414141;
+}
+
+.table__name img {
+    margin-right: 15px;
+}
+
+.table__date {
+    color: #414141;
+}
+
+.table__profit {
+    color: #00CA39;
+}
+
+.table__losses {
+    color: #E44067;
+}
+
+.table__number {
+    color: #414141;
+}

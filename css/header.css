@@ -1,0 +1,24 @@
+#header {
+    position: fixed;
+    left: var(--aside-width);
+    width: calc(100vw - var(--aside-width));
+    height: var(--header-height);
+    padding-top: 31px;
+}
+
+.header__right {
+    gap: 10px;
+}
+
+.header__right__circle img  {   
+    border-radius: 50%;
+}
+
+.header__text {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
